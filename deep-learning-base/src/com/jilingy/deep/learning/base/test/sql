@@ -1,0 +1,12 @@
+
+
+
+select middle.name from (select SC.SN, Student.name, SC.CN from SC left join Student on Student.SN =SC.SN) as middle
+left join Course on middle.CN =Course.CN
+where Course.name = 'JAVA' OR Course.name = 'C#'
+
+
+select count(CN) from Course group by CN
+
+select SN, count(CN)  from SC group by SN
+

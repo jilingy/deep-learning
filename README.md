@@ -15,7 +15,7 @@
 | deep-learning-redis-springboot | redis缓存            |
 | deep-learning-starter          | 启动类               |
 | deep-learning-web              | web层                |
-| springboot-base                | 基础：涉及单个学习类 |
+| springboot-com.jilingy.deep.learning.base                | 基础：涉及单个学习类 |
 |                                |                      |
 |                                |                      |
 |                                |                      |

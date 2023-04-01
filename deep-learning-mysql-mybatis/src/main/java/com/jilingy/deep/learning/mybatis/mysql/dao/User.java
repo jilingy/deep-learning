@@ -1,5 +1,7 @@
 package com.jilingy.deep.learning.mybatis.mysql.dao;
 
+import lombok.Data;
+
 /**
  * @author: YangJiling
  * @Description:

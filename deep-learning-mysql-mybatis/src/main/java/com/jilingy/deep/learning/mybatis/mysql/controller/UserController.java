@@ -1,5 +1,6 @@
 package com.jilingy.deep.learning.mybatis.mysql.controller;
 
+import com.jilingy.deep.learning.mybatis.mysql.dao.User;
 import com.jilingy.deep.learning.mybatis.mysql.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

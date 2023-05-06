@@ -17,12 +17,11 @@ public class AgencyHandler implements InvocationHandler {
     }
 
     /**
-     *
      * @param proxy-代理对象
      * @param method-代理的方法
      * @param args-方法参数
-     * @return: 代理对象
      * @throws Throwable-抛出异常
+     * @return: 代理对象
      */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
@@ -31,10 +30,10 @@ public class AgencyHandler implements InvocationHandler {
 
         if (result != null) {
             double price = (double) result;
-            price += 100.0;
+            price *= 1.5;
             result = price;
         }
-        System.out.println("下次使用的优惠券！");
+        System.out.println("附送小区地图一张！");
         return result;
     }
 }

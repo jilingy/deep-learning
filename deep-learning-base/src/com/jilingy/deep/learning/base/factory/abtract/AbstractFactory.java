@@ -6,6 +6,8 @@ package com.jilingy.deep.learning.base.factory.abtract;
  * @date: 2022-09-21
  */
 public interface AbstractFactory {
+
+
     /**
      * 创建咖啡对象所以是create不是make
      *

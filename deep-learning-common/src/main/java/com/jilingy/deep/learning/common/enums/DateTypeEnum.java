@@ -15,6 +15,7 @@ import java.util.regex.Pattern;
  * @date: 2022-10-23
  */
 public enum DateTypeEnum {
+
     /**
      * 日
      */

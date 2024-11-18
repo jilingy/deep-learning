@@ -1,4 +1,4 @@
-package com.jilingy.deep.learning.base.middle;
+package middle;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -6,6 +6,8 @@ package com.jilingy.deep.learning.base.common;
  * @date: 2022-09-06
  */
 public class DataBaeStorageImpl implements IStorage{
+
+
     @Override
     public void write(Object object) {
         //storage to database

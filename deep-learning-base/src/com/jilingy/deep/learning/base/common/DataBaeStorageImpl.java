@@ -5,7 +5,7 @@ package com.jilingy.deep.learning.base.common;
  * @Description:
  * @date: 2022-09-06
  */
-public class DataBaeStorageImpl implements IStorage{
+public class DataBaeStorageImpl implements com.jilingy.deep.learning.base.common.IStorage {
 
 
     @Override
